@@ -34,6 +34,16 @@ nameArr.map((name) => console.log(name));
 
 nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です`));
 
+const newNameArr = nameArr.map((name) => {
+  if (name === "jake") {
+    return name;
+  } else {
+    return `${name}さん`;
+  }
+});
+console.log(newNameArr);
+nameArr.map((name) => console.log(name));
+
 /**
  * filterは、returnで書いた条件に一致する引数を返す
  */
