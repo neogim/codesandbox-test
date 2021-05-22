@@ -32,6 +32,8 @@ const nameArr = ["田中", "山田", "jake"];
 
 nameArr.map((name) => console.log(name));
 
+nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です`));
+
 /**
  * filterは、returnで書いた条件に一致する引数を返す
  */
