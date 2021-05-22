@@ -33,7 +33,7 @@ const nameArr = ["田中", "山田", "jake"];
 nameArr.map((name) => console.log(name));
 
 /**
- * filterは、returnで返された条件に適合する引数を返す
+ * filterは、returnで書いた条件に一致する引数を返す
  */
 const numArr = [1, 2, 3, 4, 5, 6];
 const newNumArr = numArr.filter((num) => {
